@@ -1,0 +1,10 @@
+/* .MuiTimelineOppositeContent-root{
+    display:none;
+}
+.MuiTimelineItem-missingOppositeContent:before{
+    display:none;
+} */
+
+.carousel-indicators{
+    background: darkviolet!important;
+}

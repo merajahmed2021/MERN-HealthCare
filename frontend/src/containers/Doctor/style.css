@@ -1,0 +1,23 @@
+.MuiBox-root-11 {
+    padding: 0px!important;
+    margin-top: 10vh;
+}
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding: 0px!important;
+}
+
+.rs-play{
+  width:34px;
+  height:34px;
+}
+.rs-play:hover{
+    width:34px;
+    height:34px;
+    background-color: green;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* FOR TAB PANEL IN SETTING FILE */
+.MuiBox-root{
+  padding:0px!important;
+}

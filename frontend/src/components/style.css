@@ -1,0 +1,9 @@
+.MuiOutlinedInput-root{
+    border-radius: 30px!important;
+}
+#footer{
+    padding-top: 100px;
+    background: blue;
+    color: white;
+    /* background: url('https://data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 408.061 674.429'%3E%3Cdefs%3E%3ClinearGradient id='wtgnmwulyc' x1='.991' x2='.044' y1='1' y2='-.277' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23db4437' /%3E%3Cstop offset='1' stop-color='%234285f4' /%3E%3C/linearGradient%3E%3C/defs%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cpath fill='url(%23wtgnmwulyc)' d='M-43.22-125.935s44.745-17.51 118.28-14.428 113.86 20.535 158.54 23.626 83.212-9.478 83.212-9.478l-.041 619.033-360.006.033z' transform='translate(0 -2562.571) translate(-36.758 2562.571) translate(75.962 185.578)' /%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A'); */
+}

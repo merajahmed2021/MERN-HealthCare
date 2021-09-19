@@ -1,0 +1,130 @@
+// Create User of patient
+{
+    "userId:2345dsfgh765432",
+    "email:aa@gmail.com",
+    "password:2345678",
+    "category:patient",
+    "token:qwesrdfj56456576879809jhrgfdasdfbghvjhb"
+},
+//PROFILE AND APPOINTMENTS
+{
+    // check profile exist . If not then create
+    "profileId:234567hjngbfds3245",
+    "_userId:2345dsfgh765432",
+    
+    "patient_name:Zaid Ali",
+    "address: Agra",
+    "gender:male",
+    "blood_group: None of these",
+    "date_of_birth: 2021-07-06",
+    "email: rehan@gmail.com",
+    "mobileno: 345678",
+      
+    "appointments":[
+        // Get doctor ID . If ID exists then
+        { 
+            "appointId:234567hjngbfds3245",
+            "_doctorId:2345dsfgh765432",
+            "doctor_name: Meraj Ahmed",
+            "hospital_name: Ahmed Hospital",
+            "checkup":[
+                // ADD diagnosis at every appointment with same doctor
+                {
+                    "date_of_appointment: 2021-07-14",
+                    "appointment_type: Offline",
+                    "time: 2021-07-17T07:23:34.813Z",
+                    "symptoms:Hello world",
+                    "diagonsis:Hi JSON",
+                    "precription:This is world"
+                }
+            ]
+        }
+        // if DOCTOR ID doesn't exit then create new for appointments
+        { 
+            "appointId:234567hjngbfds3245",
+            "_doctorId:2345dsfgh765432",
+            "doctor_name: Akhlakh Ahmed",
+            "hospital_name: Radiant Hospital",
+            "checkup":[
+                // ADD diagnosis at every appointment with same doctor
+                {
+                    "date_of_appointment: 2021-07-14",
+                    "appointment_type: Offline",
+                    "time: 2021-07-17T07:23:34.813Z",
+                    "symptoms:Hello world",
+                    "diagonsis:Hi JSON",
+                    "precription:This is world"
+                },
+                {
+                    "date_of_appointment: 2021-07-14",
+                    "appointment_type: Offline",
+                    "time: 2021-07-17T07:23:34.813Z",
+                    "symptoms:Hello world",
+                    "diagonsis:Hi JSON",
+                    "precription:This is world"
+                }
+
+            ]
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+// {
+//     "_doctorId:60f022ee6138c10368ccc207",
+//     "_id: 60f28576380d991b043d02b7",
+//     "_userId: 60e992eb2765e1239c830ff6",
+
+//     "patient_name:Zaid Ali",
+//     "address: Agra",
+//     "gender:male",
+//     "blood_group: None of these",
+//     "date_of_birth: 2021-07-06",
+//     "email: rehan@gmail.com",
+//     "mobileno: 345678",
+    
+//     "doctor_name: Meraj Ahmed",
+//     "hospital_name: Ahmed Hospital",
+//     "date_of_appointment: 2021-07-14",
+//     "appointment_type: Offline",
+//     "time: 2021-07-17T07:23:34.813Z",
+//     "checkup":[
+//         {
+//             "id:23456dfb45",
+//             "appoint_date:02/11/2002",
+//             "appoint_type:Online",
+//             "symptoms:Hello world",
+//             "diagonsis:Hi JSON",
+//             "precription:This is world"
+//         },
+//         {
+//             "id:23456dfb45",
+//             "appoint_date:02/11/2002",
+//             "appoint_type:Online",
+//             "symptoms:Hello world",
+//             "diagonsis:Hi JSON",
+//             "precription:This is world"
+//         },
+    
+//     ]
+// }
+
+
+// {
+//     "profileId:2345dsfgh765432",
+//     "_userId:2345dsfgh765432",
+//     "patient_name:Zaid Ali",
+//     "address: Agra",
+//     "gender:male",
+//     "blood_group: None of these",
+//     "date_of_birth: 2021-07-06",
+//     "email: rehan@gmail.com",
+//     "mobileno: 345678",
+// }

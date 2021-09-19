@@ -1,0 +1,101 @@
+[
+    {
+      "id": 1,
+      "name": "Psychiatry",
+      "icon": "fas fa-brain",
+      "text": "Psychiatry is the branch of medicine focused on the diagnosis, treatment and prevention of mental, emotional and behavioral disorders.",
+      "img":"https://www.neurologyadvisor.com/wp-content/uploads/sites/10/2019/02/human-brain_G_1050228748.jpg",
+      "details":"Psychiatry is the branch of medicine focused on the diagnosis, treatment and prevention of mental, emotional and behavioral disorders.A psychiatrist is a medical doctor (an M.D. or D.O.) who specializes in mental health, including substance use disorders. Psychiatrists are qualified to assess both the mental and physical aspects of psychological problems.People seek psychiatric help for many reasons. The problems can be sudden, such as a panic attack, frightening hallucinations, thoughts of suicide, or hearing voices.Or they may be more long-term, such as feelings of sadness, hopelessness, or anxiousness that never seem to lift or problems functioning, causing everyday life to feel distorted or out of control.",
+      "faqs":[
+        {
+          "id": 1,
+          "ques": "What Treatments Do Psychiatrists Use?",
+          "ans": "Psychiatrists use a variety of treatments – including various forms of psychotherapy, medications, psychosocial interventions and other treatments (such as electroconvulsive therapy or ECT), depending on the needs of each patient."
+        },
+        {
+          "id": 2,
+          "ques": "What Is the Difference Between a Psychiatrist and Psychologist?",
+          "ans": "A psychiatrist is a medical doctor (completed medical school and residency) with special training in psychiatry.A psychologist usually has an advanced degree, most commonly in clinical psychology, and often has extensive training in research or clinical practice."
+        },
+        {
+          "id": 3,
+          "ques": "Psychiatry",
+          "ans": "fas fa-brain"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Opthalmology",
+      "icon": "fas fa-eye",
+      "text": "Ophthalmology is a branch of medicine dealing with the diagnosis, treatment and prevention of diseases of the eye and visual system.",
+      "img":"https://www.memorialhealthcare.org/wp-content/uploads/2018/03/image_N8W6HPF.jpeg",
+      "details":"Ophthalmology is a branch of medicine dealing with the diagnosis, treatment and prevention of diseases of the eye and visual system.The eye, its surrounding structures and the visual system can be affected by a number of clinical conditions. Ophthalmology involves diagnosis and therapy of such conditions, along with microsurgery.Eye health services are becoming more and more important as the UK population ages. An ageing population means there are more and more incidences of age-related diseases of the eye, such as age-related macular degeneration. These eye diseases can be successfully treated if caught early, and can be managed effectively with existing treatments and medicines.",
+      "faqs":[
+        {
+          "id": 1,
+          "ques": "What Treatments Do Psychiatrists Use?",
+          "ans": "Psychiatrists use a variety of treatments – including various forms of psychotherapy, medications, psychosocial interventions and other treatments (such as electroconvulsive therapy or ECT), depending on the needs of each patient."
+        },
+        {
+          "id": 2,
+          "ques": "What Is the Difference Between a Psychiatrist and Psychologist?",
+          "ans": "A psychiatrist is a medical doctor (completed medical school and residency) with special training in psychiatry.A psychologist usually has an advanced degree, most commonly in clinical psychology, and often has extensive training in research or clinical practice."
+        },
+        {
+          "id": 3,
+          "ques": "Psychiatry",
+          "ans": "fas fa-brain"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cardiology",
+      "icon": "fas fa-heartbeat",
+      "text": "A person with heart disease or cardiovascular disease may be referred to a cardiologist.",
+      "img":"http://www.sinhgadspecialityhospital.com/wp-content/uploads/2018/07/TVH-Cardiology.jpg",
+      "details":"A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system. The cardiologist will carry out tests, and they may perform some procedures, such as heart catheterizations, angioplasty, or inserting a pacemaker.Heart disease relates specifically to the heart, while cardiovascular disease affects the heart, the blood vessels, or both.To become a cardiologist in the United States, it is necessary to complete 4 years of medical school, 3 years of training in internal medicine, and at least 3 years specializing in cardiology."
+    },
+    {
+      "id": 4,
+      "name": "Immumnology",
+      "icon": "fas fa-microscope",
+      "text": "Immunology is the study of the immune system and is a very important branch of the medical and biological sciences.",
+      "img":"https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/Immunology--tojpeg_1510824301678_x2.jpg",
+      "details":"The immune system protects us from infection through various lines of defence. If the immune system is not functioning as it should, it can result in disease, such as autoimmunity, allergy and cancer. It is also now becoming clear that immune responses contribute to the development of many common disorders not traditionally viewed as immunologic, including metabolic, cardiovascular, and neurodegenerative conditions such as Alzheimer’s.An immunologist is a scientist and/or clinician who specialises in immunology. Many immunologists work in a laboratory focusing on research, either in academia or private industry (e.g. in the pharmaceutical industry). Other immunologists – “clinical immunologists” – are clinicians who focus on the diagnosis and management of diseases of the immune system, such as autoimmune diseases and allergies."
+    },
+    {
+      "id": 5,
+      "name": "Hematology",
+      "icon": "fas fa-burn",
+      "text": "Hematologists and hematopathologists are highly trained healthcare providers who specialize in diseases of the blood and blood components. These include blood and bone marrow cells.",
+      "img":"https://image.slidesharecdn.com/hematology-161128051650/95/annals-of-hematology-oncology-1-638.jpg?cb=1480310343",
+      "details":"Problems with the blood can affect several of the body’s systems, such as the lymphatic system, a network of tissues and organs that clear waste.Blood disorders sometimes stem from problems with the bone marrow, where the body makes most of its blood cells.Hematology aims to understand how these problems occur, how they affect a person’s health, and how to treat them.It is common for hematologists to also train in oncology, which is the study, diagnosis, and treatment of cancer. The combined training allows these doctors to treat a range of blood-related illnesses, including some cancers.A person with blood cancer, such as leukemia or myeloma, may see an oncologist and hematologist separately, or they may see a doctor with training in both fields."
+    },
+    {
+      "id": 6,
+      "name": "Dental",
+      "icon": "fas fa-tooth",
+      "text": "Dental care is the maintenance of healthy teeth and may refer to - Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders.",
+      "img":"https://webcdn.leica-microsystems.com/fileadmin/_processed_/4/0/csm_Dental--medical_3_2_e5278842a1.jpg",
+      "details":"The team approach to dentistry promotes continuity of care that is comprehensive, convenient, cost effective and efficient. Members of the team include dental assistants, lab technicians and dental hygienists. Leading the team is the dentist, a doctor specializing in oral health who has earned either a Doctor of Dental Medicine (DMD) degree or a Doctor of Dental Surgery (DDS) degree, which are essentially the same.Dentists' areas of care include not only their patients' teeth and gums but also the muscles of the head, neck and jaw, the tongue, salivary glands, the nervous system of the head and neck and other areas. During a comprehensive exam, dentists examine the teeth and gums, but they also look for lumps, swellings, discolorations, ulcerations — any abnormality. When appropriate, they perform procedures such as biopsies, diagnostic tests for chronic or infectious diseases, salivary gland function, and screening tests for oral cancer."
+    },
+    {
+      "id": 7,
+      "name": "Pulmonologist",
+      "icon": "fas fa-lungs-virus",
+      "text": "A pulmonologist is a doctor who diagnoses and treats diseases of the respiratory system -- the lungs and other organs that help you breathe.",
+      "img":"https://wp02-media.cdn.ihealthspot.com/wp-content/uploads/sites/494/2019/10/26213435/Questions-to-Ask-your-Pulmonologist.jpg",
+      "details":"For some relatively short-lasting illnesses that affect your lungs, like the flu or pneumonia, you might be able to get all the care you need from your regular doctor. But if your cough, shortness of breath, or other symptoms don't get better, you might need to see a pulmonologist.Internal medicine is the type of medical care that deals with adult health, and pulmonology is one of its many fields. Pulmonologists focus on the respiratory system and diseases that affect it."
+    },
+    {
+      "id": 8,
+      "name": "Orthopedic",
+      "icon": "fas fa-bone",
+      "text": "Orthopedics is a branch of medicine that focuses on the care of the musculoskeletal system. This system is made up of muscles and bones, as well as joints, ligaments, and tendons.",
+      "img":"http://doctorshospital.com.pk/wp-content/uploads/2014/09/banner-850x334.jpg",
+      "details":"A person who specializes in orthopedics is known as an orthopedist. Orthopedists use both surgical and nonsurgical approaches to treat a variety of musculoskeletal issues, such as sports injuries, joint pain, and back problems.Orthopedists treat a wide variety of musculoskeletal conditions. These conditions may be present from birth, or they may occur as a result of injury or age-related wear and tear.During the first appointment, the orthopedist will work to diagnose the person’s condition. This normally includes conducting a physical examination and taking X-rays.      Sometimes, the orthopedist will use an in-office procedure, such as an injection, to help make the diagnosis or treat the condition."
+    }
+]
+  
