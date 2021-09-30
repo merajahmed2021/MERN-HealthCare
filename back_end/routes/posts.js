@@ -45,6 +45,7 @@ const storage = multer.diskStorage({
     }
 });
 const upload = multer({ storage: storage });
+
 router.route('/create').post(upload.single('image'),verify,async (req, res) => {
     const user=req.user._id;
     const post = new Post({

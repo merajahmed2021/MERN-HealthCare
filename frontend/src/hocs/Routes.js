@@ -68,7 +68,7 @@ const Routes = () => {
              <PrivateRoute exact path="/doctor_blogs"  component={DoctorBlogs}/>
              <PrivateRoute exact path="/doctor_patient_profile/:id"  component={DPatientProfile}/>
              <PrivateRoute exact path="/doctor_patient_edit"  component={DPatientEdit}/>
-             <Route component={Error}/>
+             {/* <Route component={Error}/> */}
         </Switch>
       </section>
     );

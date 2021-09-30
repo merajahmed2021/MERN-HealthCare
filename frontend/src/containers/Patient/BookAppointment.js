@@ -125,9 +125,11 @@ function AppointmentBook({auth}) {
       }); 
       GetDoctorSettingbyId(id).then((data)=>{
         console.log("Settings = ",data);
-        console.log("Appointmet Booking = ",data.appointment_booking);
-        setdoctorSettings(data);
-        setOpenAlert(data.appointment_booking);
+        if(data){
+          console.log("Appointmet Booking = ",data.appointment_booking);
+          setdoctorSettings(data);
+          setOpenAlert(data.appointment_booking);  
+        }
       })
       GetLatestPost().then((data)=>{
         setlatestPost(data);

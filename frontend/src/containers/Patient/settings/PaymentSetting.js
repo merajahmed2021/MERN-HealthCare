@@ -39,8 +39,10 @@ export default function BasicTable() {
 
   useEffect(() => {
     GetUserPayment().then((res)=>{
-      console.log(res);
-      setPayment(res);
+      if(res){
+        console.log(res);
+        setPayment(res);  
+      }
     })
   }, [])
 

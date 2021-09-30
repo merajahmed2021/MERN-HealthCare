@@ -3,18 +3,13 @@ import { useHistory } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 import Footer from '../../components/Footer';
 
-import {
-  Col,
-  Row,
-  Container,
-  InputGroup,
-  FormControl,
-  Form,
-} from "react-bootstrap";
+import {  Col,  Row,  Container,  InputGroup,  FormControl,  Form,} from "react-bootstrap";
 
 import Button from '@material-ui/core/Button';
 import Divider from "@material-ui/core/Divider";
-
+import Snackbar from '@material-ui/core/Snackbar';
+import IconButton from '@material-ui/core/IconButton';
+import CloseIcon from '@material-ui/icons/Close';
 
 import {userlogin} from '../../actions/authactions';
 import { connect } from 'react-redux';
@@ -22,25 +17,31 @@ import { Redirect, Link } from 'react-router-dom';
 
 
 function Login({ auth, userlogin}) {
+  
+  const [open, setOpen] = React.useState(false);
 
   const { isAuthenticated, user,authCategory} = auth;
-
- console.log("LOGIN USER = ",user);
-
+  
+  console.log("LOGIN USER = ",user);
+  
   const [formData, setFormData] = useState({
     email: '',
     password:'',
     category:''
   });
-
+  
   const {email,password,category } = formData;
-
+  
   const onChange = e => setFormData({ ...formData, [e.target.name]: e.target.value });
 
   const handleSubmit=()=>{
     console.log(email,password,category);    
     const userData={email,password,category};
     userlogin(userData);
+    if(!isAuthenticated){
+      console.log("SOme Thing Wrong");
+      setOpen(true);
+    }
   
  }
 
@@ -56,16 +57,21 @@ function Login({ auth, userlogin}) {
   }
 
 
-  return (
-    <div style={{height:'100vh',overflow:'hidden',
-    // background:'darkviolet'
-    // background:" linear-gradient(90deg, rgba(99,8,138,1) 8%, rgba(129,15,189,0.773546918767507) 41%, rgba(146,72,204,0.4066001400560224) 73%)"
+  // const handleClick = () => {
+    // setOpen(true);
+  // };
 
-    }}>
-      <div style={{
-        // background:'darkviolet',
-      // height:'100vh',color:'white',
-      display:'flex',justifyContent:'center',alignItems:'center',marginTop:100}}>
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+    setOpen(false);
+  };
+
+
+  return (
+    <div style={{height:'100vh',overflow:'hidden'}}>
+      <div style={{display:'flex',justifyContent:'center',alignItems:'center',marginTop:100}}>
       <Container>
           <Row>
               <Col lg='7' xs='12'></Col>
@@ -122,10 +128,30 @@ function Login({ auth, userlogin}) {
                   </div>
               </Col>
           </Row>
+          <Snackbar
+        open={open}
+        anchorOrigin={{
+          vertical: 'bottom',
+          horizontal: 'right',
+        }}
+        autoHideDuration={6000}
+        onClose={handleClose}
+        message="Something Went Wrong . Try Again ."
+        action={<IconButton
+          size="small"
+          aria-label="close"
+          color="inherit"
+          onClick={handleClose}
+        >
+          <CloseIcon fontSize="small" />
+        </IconButton>}
+        horizontal="left"
+      >
+        
+      </Snackbar>
       </Container>
       </div>
-      {/* <Divider style={{background:'gray',marginTop:100}}/> */}
-      {/* <Footer/> */}
+     
     </div>
   );
 }

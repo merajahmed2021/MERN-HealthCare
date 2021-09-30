@@ -247,15 +247,20 @@ export default function Dashboard() {
                             <div>
                                 <Card   elevation={6} className='mt-4'>
                                     <CardContent   style={textStyle}>Total Appointments : 
-                                    {user_appointments.past_appointment+user_appointments.upcoming_appointment}</CardContent>
+                                    {
+                                      user_appointments?user_appointments.past_appointment+user_appointments.upcoming_appointment:0
+                                    }</CardContent>
                                 </Card>
                                 <Card  elevation={6} className='mt-3'>
                                     <CardContent style={textStyle}>Upcoming Appointments : 
-                                    {user_appointments.upcoming_appointment}</CardContent>
+                                    {
+                                        user_appointments? user_appointments.upcoming_appointment:0
+                                    }</CardContent>
                                 </Card>
                                 <Card  elevation={6} className='mt-3'>
                                     <CardContent style={textStyle}>Past Appointments : 
-                                    {user_appointments.past_appointment}</CardContent>
+                                    {
+                                      user_appointments?user_appointments.past_appointment:0}</CardContent>
                                 </Card>
                             </div>
                       </CardContent>       

@@ -52,24 +52,15 @@ router.post('/login',async (req,res)=>{
     }else if(!validPass){
         return res.status(400).send('Password is wrong');
     }else{
-            // Create and assign a token
-        const token=jwt.sign({_id:user._id},process.env.TOKEN_SECRET)
-        
-        // var token = jwt.sign({ id: user.id }, process.env.TOKEN_SECRET, {
-        //     expiresIn: 86400 // 24 hours
-        // });
-        
-        // res.header("auth-token",token).send(token);
+        const token=jwt.sign({_id:user._id},process.env.TOKEN_SECRET)        
         res.header("auth-token",token);
-        // 
-          res.status(200).send({
+        res.status(200).send({
             id: user._id,
             username: user.username,
             email: user.email,
             category: user.category,
             accessToken: token
         });
-
         // return res.send(user);
     }
 

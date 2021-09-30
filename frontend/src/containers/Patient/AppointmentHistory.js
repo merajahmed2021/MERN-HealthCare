@@ -74,12 +74,16 @@ export default function BasicTable() {
   useEffect(() => {
     GetAppointmentStatus();
     GetAppointmentPending().then((res)=>{
-      console.log("Pending Appointments: ",res);
-      setpending(res);
+      if(res){
+        console.log("Pending Appointments: ",res);
+        setpending(res);  
+      }
     })
     GetAppointmentHistory().then((res)=>{
-      console.log(res);
-      sethistory(res);
+      if(res){
+        console.log(res);
+        sethistory(res);  
+      }
     })
   }, [])
 
